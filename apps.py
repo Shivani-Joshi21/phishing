@@ -3,9 +3,10 @@ import pickle
 import pandas as pd
 import sys
 import os
-sys.path.append(os.path.abspath("extract_features s.py"))  # Adds the current directory
+sys.path.append(os.path.abspath("extract_features s.py"))  # Replace with actual folder
 
 from extract_features import ExtractFeatures
+
 
 
 @st.cache_resource
