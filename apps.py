@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 import pandas as pd
-from extract_features  import ExtractFeatures
+from  utils.extract_features  import ExtractFeatures
 
 @st.cache_resource
 def get_model():
